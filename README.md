@@ -1,5 +1,5 @@
 # exercicios-c
-Lista de exercícios em C (condicional, repetição, funções, vetores/matrizes, strings, ponteiros, alocação dinâmica, structs, arquivos)
+Lista de exercícios em C (condicional, repetição, funções, vetores/matrizes, strings, structs, arquivos)
 
 LISTA 1
 
@@ -195,61 +195,6 @@ Dada uma matriz inteira Anxn, verificar se A é de permutação.
 
 13. Dada uma matriz Amxn, imprimir o número de linhas e o número de colunas nulas
 da matriz.
-
-
-LISTA 5.1
-
-1. Criar um vetor, inicializar com valores de 1 a 10 e escrever o vetor
-utilizando ponteiros.
-
-2. Criar uma matriz, inicializar com valores de 1 a 100 e escrever a matriz
-gerada utilizando ponteiros.
-
-3. Crie funções para leitura e escrita de vetores, faça um programa utilizando
-as funções criadas: leVetor(vetor, tamanho) e escreveVetor(vetor, tamanho)
-
-4. Implemente e utilize uma função STRLEN(string) que retorna o tamanho da
-string.
-
-5. Faça uma função para converter letras minúsculas para maiúsculas
-CONVERTE(string). Deve subtrair 32 do código ASCII.
-
-6. Faça um programa para elevar um número ao cubo.
-a) utilize passagem de parâmetro por valor
-b) utilize passagem de parâmetro por referência
-
-7. Crie uma função que calcule o quadrado e o cubo de um número. Quadrado
-e cubo devem ser passados por referência e o número por valor:
-calculo(&quadrado, &cubo, num).
-
-8. Escrever uma função TROCA (x, y, z, p) que troca entre si os conteúdos de:
-– x e y, se p = 1
-– y e z, se p = 2
-– x e z, se p = 3
-
-9. Faça uma função para ordenar um vetor, deve ser passado por parâmetro o
-vetor e o seu tamanho, imprimir no programa principal.
-a) ordenação(vetor, tamanho)
-b) crie uma outra função para fazer a troca dos elementos do vetor por
-referência.
-
-10. Implemente e utilize uma função STRCAT(string_destino, string_origem)
-que concatena as strings.
-
-
-
-LISTA 5.3
-
-1. Crie um programa simples que:
-a) Aloque e desaloque espaço para um inteiro
-b) Aloque e desaloque espaço para um caractere
-c) Aloque e desaloque espaço para 10 floats, inicializando aleatoriamente e mostrando o
-conteúdo do espaço alocado
-d) Aloque e desaloque espaço para 50 caracteres, inicializando com caracteres aleatórios
-
-2. Escreva um programa que lê strings do teclado até que duas strings iguais sejam
-digitadas consecutivamente. A saída é a concatenação de todas as strings lidas e os
-tamanhos da maior e da menor.
 
 
 LISTA 6

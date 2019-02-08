@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <locale.h>
 
-/* Escreva um programa que abra um arquivo texto e conte o número de
-caracteres presentes nele. Imprima o número de caracteres na tela. */
+/* Escreva um programa que abra um arquivo texto e conte o nÃºmero de
+caracteres presentes nele. Imprima o nÃºmero de caracteres na tela. */
 
 int main(int argc, char *argv[]) {
 	system ("color 0a");

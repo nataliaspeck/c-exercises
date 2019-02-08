@@ -163,12 +163,10 @@ na frase.
 6. Faça um algoritmo que leia uma string e remova as vogais e os espaços em branco.
 Exemplo: “universidade do estado de santa catarina!” -> “nvrsdddstddsntctrn”
 
-7. Dados dois strings (um contendo uma frase e outro contendo uma palavra),
-determine o número de vezes que a palavra ocorre na frase.
-Exemplo:
-Para a palavra ANA e a frase :
-ANA E MARIANA GOSTAM DE BANANA
-Temos que a palavra ocorre 4 vezes na frase.
+7. Na teoria de Sistemas, define-se elemento minimax de uma matriz como o menor
+elemento da linha em que se encontra o maior elemento da matriz. Escreva um algoritmo
+que leia uma matriz A(5x5) e determine o elemento minimax desta matriz, escrevendo a
+matriz A, a posição e o valor do elemento minimax.
 
 8. Dada uma sequência de n números reais, determinar os números que compõem a
 sequência e o número de vezes que cada um deles ocorre na mesma.
@@ -184,7 +182,6 @@ xi, xi+1,..., xi+m-1 = xi+m, xi+m+1,..., xi+2m-1
 Imprima, caso existam, os valores de i e m.
 Exemplo: Na sequência 7, 9, 5, 4, 5, 4, 8, 6 existem i=3 e m=2.
 
-
 10. Dadas duas matrizes reais Amxn e Bnxp, calcular o produto de A por B.
 
 11. Dada uma matriz real Amxn, verificar se existem elementos repetidos em A.
@@ -195,6 +192,37 @@ Dada uma matriz inteira Anxn, verificar se A é de permutação.
 
 13. Dada uma matriz Amxn, imprimir o número de linhas e o número de colunas nulas
 da matriz.
+
+14. Dizemos que uma matriz quadrada inteira é um quadrado mágico se a soma dos
+elementos de cada linha, a soma dos elementos de cada coluna e a soma dos elementos
+das diagonais principal e secundária são todas iguais. Dada uma matriz quadrada Anxn, 
+verificar se A é um quadrado mágico.
+
+15. (MAT 89) Um jogo de palavras cruzadas pode ser representado por uma
+matriz Amxn onde cada posição da matriz corresponde a um quadrado do jogo, sendo
+que 0 indica um quadrado branco e -1 indica um quadrado preto. Indicar na matriz as
+posições que são início de palavras horizontais e/ou verticais nos quadrados
+correspondentes (substituindo os zeros), considerando que uma palavra deve ter pelo
+menos duas letras. Para isso, numere consecutivamente tais posições.
+
+
+LISTA 5
+
+1. Faça uma função que converta uma string para maiúscula (toda ela). O protótipo da função
+é: void Maiuscula(char *str, int tam)
+Crie ainda um programa que solicite uma string para o usuário e a exiba, em tela, já
+processada pela função “Maiuscula” criada.
+
+2. Faça um programa em que se permite ao usuário digitar letras (caracteres), um a um. Os
+caracteres informados são inseridos no final de uma string, alocada dinamicamente e
+redimensionada à medida em que novos caracteres cheguem. O programa é finalizado e a
+string resultante é exibida quando o usuário informar ‘=’ (caractere igual).
+
+3. Faça um programa que solicite um vetor de inteiros (nomeado de vetInt) ao usuário. Usando
+um vetor de ponteiros para inteiros (nomeado de pVetInt) do mesmo tamanho de vetInt,
+aponte o primeiro elemento de pVetInt para o menor elemento de vetInt, o segundo elemento
+deverá ser apontado para o segundo menor elemento de vetInt e assim sucessivamente.
+pVetInt, portando, apontará para os elementos de vetInt em ordem crescente.
 
 
 LISTA 6

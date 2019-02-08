@@ -1,5 +1,5 @@
 # exercicios-c
-Lista de exercícios em C (condicional, repetição, funções, vetores/matrizes, strings, structs, arquivos)
+Lista de 60 exercícios em C (condicional, repetição, funções, vetores/matrizes, strings, ponteiros, alocação dinâmica, structs, arquivos)
 
 LISTA 1
 

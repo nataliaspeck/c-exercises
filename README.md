@@ -245,15 +245,7 @@ exemplo1.txt e escrever na tela.
 3. Escreva um programa que abra um arquivo texto e conte o número de
 caracteres presentes nele. Imprima o número de caracteres na tela.
 
-4. Repita os exercícios anteriores (leitura e escrita) para strings (fputs, fgets)
+4. Exercite a escrita em arquivo (fputs, fprintf)
 
-5. Crie uma estrutura, grave os dados em arquivo binário, leia os dados do
-arquivo e mostre. (fwrite, fread)
+5. Exercite a leitura em arquivo (fgets e fscanf)
 
-6. Refaça o exercício anterior com as funções fprintf e fscanf.
-
-7. Escreva um programa que leia uma lista de nomes e idades de um arquivo
-texto. Prepare um arquivo para ser lido com nomes e idades. Apresente os
-dados lidos em forma de tabela na tela. Use as funções de sua preferência,
-mas faça pelo menos duas versões do programa usando funções de leitura
-diferentes.

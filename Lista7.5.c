@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 
-/* coment·rio */
+/* coment√°rio */
 
 int main(int argc, char *argv[]) {
 	system ("color 0a");

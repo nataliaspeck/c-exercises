@@ -288,9 +288,6 @@ Saída de Dados:
 a) Impressão no programa principal;
 b) Através de uma função.
 
-4. Para a estrutura anterior, utilizar um vetor de estrutura.
-
-5. Ainda para a estrutura anterior, utilizar alocação dinâmica.
 
 LISTA 7
 

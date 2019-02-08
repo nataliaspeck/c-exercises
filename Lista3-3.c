@@ -1,40 +1,29 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void copia_char(char *destino, char *origem){
-    int i;
-    for(i=0; origem[i]!='\0'; i++)
-        destino[i]=origem[i];
-    destino[i]='\0';
-}
+/* Leia 3 números, crie uma função para calcular e retornar a soma dos
+números e outra função para encontrar e imprimir o maior número.. */
 
-int conta_char(char *s){
-    int cont = 0;
-    while(s[cont] != '\0')
-        cont ++;
-    return cont;
-}
-
-char *concatena(char *n1, char *n2){
-    char *p = malloc(conta_char(n1)+conta_char(n2)+1);
-    copia_char(p, n1);
-    copia_char(p+conta_char(p), n2);
-    return p;
-}
-
-int main(){
-
-    char nome1[10], nome2[10];
-
-    printf("Digite um nome: ");
-    scanf("%s",nome1);
-
-    printf("Digite outro nome: ");
-    scanf("%s", nome2);
-
-    char *concat = concatena(nome1, nome2);
-
-    printf("%s + %s = %s\n", nome1, nome2, concat);
-
-    free(concat);
+int main(int argc, char *argv[]) {
+	int a, b, c, soma, maiorr;
+	int somar (int x, int y, int z){
+		return x + y + z;
+	}
+	int maior_num (int q, int w, int e){
+		int maior;
+		maior = q;
+		if (w > maior){
+			maior = w;
+		}
+		if (e > maior) {
+			maior = e;
+			}
+		return maior;
+	}
+	printf ("Insira os 3 números: ");
+	scanf ("%d\n%d\n%d", &a, &b, &c);
+	soma = somar (a, b, c);
+	maiorr = maior_num (a, b, c);
+	printf ("Soma = %d e maior número = %d", soma, maiorr);
+	return 0;
 }

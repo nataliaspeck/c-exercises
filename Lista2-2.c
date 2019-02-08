@@ -1,23 +1,27 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-#include <time.h>
 
-
-/* Criar uma matriz, inicializar com valores de 1 a 100 e escrever a matriz
-gerada utilizando ponteiros. */
+/* comentário */
 
 int main(int argc, char *argv[]) {
 	system ("color 0a");
 	setlocale(LC_ALL, "Portuguese");
-	int i, vet[10][10], *p;
-	p = (int *)vet;
-	srand(time(NULL));
-	for (i = 0; i < 100; i++){
-		p[i] = rand()%100; // *(p+i) 
-	}
-	for (i = 0; i < 100; i++){
-		printf ("Vetor[%d] = %d\n", i, *(p + i));
+	int a=1, b=2, c=3, n, cont=0;
+	printf ("Insira um número:\n");
+	scanf ("%d", &n);
+	do{
+		if (a*b*c == n || n == 0){
+			cont++;
+		} 
+		a++;
+		b++;
+		c++;
+	}while (a*b*c <= n);
+	if (cont == 1){
+		printf ("É triangular\n");
+	}else {
+		printf ("Não é triangular\n");
 	}
 	system ("pause");
 	return 0;

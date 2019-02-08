@@ -2,23 +2,20 @@
 #include <stdlib.h>
 #include <locale.h>
 
-/* Dado um número inteiro positivo n, calcular a soma dos n primeiros números
-inteiros positivos. */
+/* Dado um número inteiro positivo n, imprimir os n primeiros naturais ímpares.
+Exemplo: Para n=4 a saída dever ser 1,3,5,7.. */
 
 int main(int argc, char *argv[]) {
 	setlocale(LC_ALL, "Portuguese");
-	int n, soma=0, cont;
+	int n, cont, imp = 1;
 	printf ("Insira um número inteiro positivo:\n");
 	scanf ("%d", &n);
-	if (n<=0){
-		printf ("ERRO! nsira um número inteiro positivo:\n");
-		scanf ("%d", &n);
-	}
 	printf ("\n");
 	for (cont = 0; cont < n; cont++){
-		soma = soma + cont;
+		printf ("%d", imp);
+		imp = imp + 2;
 	}
-	printf ("Soma: %d\n", soma);
+	printf ("\n");
 	system ("pause");
 	return 0;
 }
